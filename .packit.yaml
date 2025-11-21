@@ -23,7 +23,7 @@ jobs:
   - job: copr_build
     trigger: pull_request
     owner: "r0x0d"
-    project: rust-shared_thread
+    project: shared_thread
     targets:
       - fedora-all
 
@@ -32,6 +32,6 @@ jobs:
     trigger: commit
     branch: main
     owner: "r0x0d"
-    project: rust-shared_thread
+    project: shared_thread
     targets:
       - fedora-all
